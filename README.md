@@ -84,3 +84,21 @@ src/data/site.json  ALL content
 Experience: ARRIVE → UNDERSTAND → EXPLORE (3 businesses) → BELIEVE (reviews/about) →
 IMAGINE → ACT. `prefers-reduced-motion`, a11y, SEO (OG, canonical placeholder, robots,
 sitemap) all handled. No fake statistics, no lorem ipsum.
+
+---
+
+## Deploy to Vercel
+
+The repo is Vercel-ready (`vercel.json` + `.nvmrc`):
+
+- **Framework:** Vite · **Build:** `npm run build` · **Output:** `dist` · **Node:** 22
+- SPA fallback rewrite and immutable caching for `/assets` are preconfigured.
+
+**Option A (recommended):** In Vercel, *Add New → Project*, import this GitHub repo —
+settings are auto-detected from `vercel.json`. Every push to your branch deploys a
+preview; the production branch deploys live.
+
+**Option B (CLI):** `npm i -g vercel && vercel` then `vercel --prod`.
+
+After deploying, set your real domain in `src/data/site.json` (`meta.siteUrl`,
+`meta.canonical`) and the OG/canonical tags in `index.html`, then redeploy.
