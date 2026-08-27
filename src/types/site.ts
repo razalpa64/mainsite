@@ -109,6 +109,7 @@ export interface SiteContent {
     secondaryCta: Cta;
     image: string;
     imageAlt: string;
+    endStatement: string;
     scrollCue: string;
   };
 

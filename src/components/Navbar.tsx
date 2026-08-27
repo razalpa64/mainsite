@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { content } from '@/lib/content';
 import { getScrollEngine, scrollToAnchor } from '@/lib/scroll';
@@ -18,12 +18,18 @@ export function Navbar({ booted }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<string>(content.navigation.links[0]?.id ?? 'home');
+  const progressRef = useRef<HTMLDivElement | null>(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 
   const links = content.navigation.links;
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 24);
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = max > 0 ? window.scrollY / max : 0;
+      if (progressRef.current) progressRef.current.style.transform = `scaleX(${progress})`;
+    };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
@@ -81,6 +87,11 @@ export function Navbar({ booted }: NavbarProps) {
 
   return (
     <>
+      {/* Scroll progress */}
+      <div aria-hidden="true" className="fixed inset-x-0 top-0 z-[80] h-[2px] bg-transparent">
+        <div ref={progressRef} className="h-full w-full origin-left bg-gold" style={{ transform: 'scaleX(0)' }} />
+      </div>
+
       <header
         className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
           scrolled && !open ? 'glass py-3' : 'bg-transparent py-5'

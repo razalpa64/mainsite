@@ -6,6 +6,7 @@ import { content } from '@/lib/content';
 import { Preloader } from '@/components/Preloader';
 import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
+import { Marquee } from '@/components/Marquee';
 import { Intro } from '@/components/Intro';
 import { Businesses } from '@/components/Businesses';
 import { Work } from '@/components/Work';
@@ -36,6 +37,7 @@ export default function App() {
 
       <main id="home" className="relative">
         <Hero booted={booted} />
+        <Marquee />
         <Intro />
         <Businesses />
         <Work />

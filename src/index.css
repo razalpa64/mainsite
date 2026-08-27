@@ -130,6 +130,15 @@ img {
   }
 }
 
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
 @keyframes ring-pulse {
   0% {
     transform: translate(-50%, -50%) scale(0.55);

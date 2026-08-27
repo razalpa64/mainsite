@@ -45,20 +45,21 @@
       { "id": "about", "label": "About", "href": "#about" },
       { "id": "contact", "label": "Contact", "href": "#contact" }
     ],
-    "cta": { "label": "Let's Talk", "href": "#contact" },
+    "cta": { "label": "Explore Invytra", "href": "#businesses" },
     "menuLabel": "Menu",
     "closeLabel": "Close"
   },
 
   "hero": {
     "id": "home",
-    "eyebrow": "INVYTRA — LEARN · CREATE · CELEBRATE",
-    "headlineLines": ["Ideas today.", "Impact tomorrow."],
-    "statement": "One Invytra, three crafts: a learning platform, a project studio for students, and an events house — each with its own identity, all under one standard.",
-    "primaryCta": { "label": "Explore Our Businesses", "href": "#businesses", "variant": "solid" },
-    "secondaryCta": { "label": "Start a Conversation", "href": "#contact", "variant": "ghost" },
+    "eyebrow": "THE INVYTRA ECOSYSTEM",
+    "headlineLines": ["Learn.", "Create.", "Celebrate."],
+    "statement": "One ecosystem for learning new skills, building meaningful projects, and creating unforgettable experiences.",
+    "primaryCta": { "label": "Explore Invytra", "href": "#businesses", "variant": "solid" },
+    "secondaryCta": { "label": "Discover What We Do", "href": "#work", "variant": "ghost" },
     "image": "/assets/images/hero/main.jpg",
-    "imageAlt": "An elegant still life representing learning, creating and celebrating under Invytra",
+    "imageAlt": "The Invytra ecosystem — learning, creating and celebrating",
+    "endStatement": "One brand. Three experiences. Infinite possibilities.",
     "scrollCue": "Scroll"
   },
 
