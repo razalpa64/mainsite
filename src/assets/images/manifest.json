@@ -39,6 +39,66 @@
     "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACQAgCdASoQAAwAAoBCJbACdLoAEIoYdNrjt/zUAAD+7Fv2szsjqm8ll7duEsWdhri939bOKwMvkrmoX6HcK2YUeC3d9KZISefvdbL618O4nhRTsv4po70ovWB4ZQx+6gF6IQIXdt+K0pd7mAfse7gy24i7s4rr/JnvKoQAAAA=",
     "hash": "fe272bc3"
   },
+  "/assets/images/work/learn-1.jpg": {
+    "src": "/assets/images/work/learn-1-1200.webp",
+    "fallbackSrc": "/assets/images/work/learn-1-1200.jpg",
+    "srcset": "/assets/images/work/learn-1-800.webp 800w, /assets/images/work/learn-1-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/work/learn-1-800.jpg 800w, /assets/images/work/learn-1-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwAgCdASoQAAwAAoBCJagCdAERCEtN2hgNwAD+Jnl3/YcgAla8Lut00wve4TBIzTnJ41+CPzVx/8Ob7rLYyy4Tzp69abZ4jzhZRZG6tMiHcWyAIohvkk7HFXoIctxa8OpsBenbVk4g2k3w3euwAX6gbxgAAA==",
+    "hash": "d32660cc"
+  },
+  "/assets/images/work/learn-2.jpg": {
+    "src": "/assets/images/work/learn-2-1200.webp",
+    "fallbackSrc": "/assets/images/work/learn-2-1200.jpg",
+    "srcset": "/assets/images/work/learn-2-800.webp 800w, /assets/images/work/learn-2-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/work/learn-2-800.jpg 800w, /assets/images/work/learn-2-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQAgCdASoQAAwAAoBCJYgCdADiUmgyCMAAAP5GhpmqXGtPhQ/7+FhnQtTNYtTnakUXi6fEYlVre4LSACBWtrV+b0k139L1E9/YfVaDlBN3ialnCv9kYr/ZTTopXqrS2bLrZQJ5oAA=",
+    "hash": "1e436c37"
+  },
+  "/assets/images/work/create-1.jpg": {
+    "src": "/assets/images/work/create-1-1200.webp",
+    "fallbackSrc": "/assets/images/work/create-1-1200.jpg",
+    "srcset": "/assets/images/work/create-1-800.webp 800w, /assets/images/work/create-1-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/work/create-1-800.jpg 800w, /assets/images/work/create-1-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAQAgCdASoQAAwAAoBCJaACdAEO864ucAgAAP7tLdGaSk+0LoRx6glBCRSjtXL1Pl9bWdurXDVaxHtRGyB0oI3TIL/mhSGNq7zzke62T+MV8/yNLuTBqNeEHsS83vbFdMkq8I/UjB3bmm8tPdOiMEEddEK0AA==",
+    "hash": "1d2650ed"
+  },
+  "/assets/images/work/create-2.jpg": {
+    "src": "/assets/images/work/create-2-1200.webp",
+    "fallbackSrc": "/assets/images/work/create-2-1200.jpg",
+    "srcset": "/assets/images/work/create-2-800.webp 800w, /assets/images/work/create-2-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/work/create-2-800.jpg 800w, /assets/images/work/create-2-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAABQAgCdASoQAAwAAoBCJaACdAYuRvPOTH4mL4AAzj/dDDKW67fb+2lOSsv4/rgsbwVP0Ak4jEFvzX2EplzLuLA8tFJt+Pu55cSUXsMpe/IEQhcp97vYrSBMri9b/YceVII0CFbSPdpZQlo1KbXwosohn9JB379DyjjFYQAA",
+    "hash": "4d09e8e3"
+  },
+  "/assets/images/work/celebrate-1.jpg": {
+    "src": "/assets/images/work/celebrate-1-1200.webp",
+    "fallbackSrc": "/assets/images/work/celebrate-1-1200.jpg",
+    "srcset": "/assets/images/work/celebrate-1-800.webp 800w, /assets/images/work/celebrate-1-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/work/celebrate-1-800.jpg 800w, /assets/images/work/celebrate-1-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAABQAgCdASoQAAwAAoBCJaACdAYsjyJm1rz9ZEAA/voG9+PIoqC7Zjh4xmXgluE+kVq4wUeu0MKx9zJ37DCLqWImAiIESdXfNLq4SkvD4AA9mh6vfqKHzu9MfgHQpekgragAAA==",
+    "hash": "0aa1bc8d"
+  },
+  "/assets/images/work/celebrate-2.jpg": {
+    "src": "/assets/images/work/celebrate-2-1200.webp",
+    "fallbackSrc": "/assets/images/work/celebrate-2-1200.jpg",
+    "srcset": "/assets/images/work/celebrate-2-800.webp 800w, /assets/images/work/celebrate-2-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/work/celebrate-2-800.jpg 800w, /assets/images/work/celebrate-2-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAwAAoBCJbACdADRFpRlJSNsAP78aqHObuHWsRkiBLqTlrcHqo1jeWOfqjmXSptf9Qg3+EUuJceluaJMAQRH7garGpvs/1BhmP296b9AWaPR/upAAA==",
+    "hash": "0b6fc2dd"
+  },
   "/assets/images/og/cover.jpg": {
     "src": "/assets/images/og/cover.webp",
     "fallbackSrc": "/assets/images/og/cover.jpg",

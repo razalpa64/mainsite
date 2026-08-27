@@ -35,6 +35,12 @@ const SPEC = [
   { src: 'business-learning.jpg', out: 'business/learning.jpg', kind: 'business' },
   { src: 'business-projects.jpg', out: 'business/projects.jpg', kind: 'business' },
   { src: 'business-events.jpg', out: 'business/events.jpg', kind: 'business' },
+  { src: 'work-learn-1.jpg', out: 'work/learn-1.jpg', kind: 'business' },
+  { src: 'work-learn-2.jpg', out: 'work/learn-2.jpg', kind: 'business' },
+  { src: 'work-create-1.jpg', out: 'work/create-1.jpg', kind: 'business' },
+  { src: 'work-create-2.jpg', out: 'work/create-2.jpg', kind: 'business' },
+  { src: 'work-celebrate-1.jpg', out: 'work/celebrate-1.jpg', kind: 'business' },
+  { src: 'work-celebrate-2.jpg', out: 'work/celebrate-2.jpg', kind: 'business' },
   // OG cover is derived from the hero artwork so social shares always match the brand.
   { src: 'hero-main.jpg', out: 'og/cover.jpg', kind: 'og', exact: { width: 1200, height: 630 } },
 ];

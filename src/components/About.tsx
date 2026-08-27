@@ -11,7 +11,7 @@ export function About() {
     <section id={about.id} className="relative bg-paper-2 py-28 md:py-36">
       <div className="mx-auto grid w-full max-w-[1300px] grid-cols-1 gap-12 px-5 md:px-10 lg:grid-cols-12">
         <div className="lg:col-span-7">
-          <SectionLabel index="04" label={about.label} />
+          <SectionLabel index="05" label={about.label} />
           <h2 className="mt-8 font-display text-[clamp(2.2rem,5vw,4.2rem)] font-medium leading-[1.08] tracking-[-0.01em] text-ink">
             <SplitLines as="span" lines={about.headlineLines} />
           </h2>

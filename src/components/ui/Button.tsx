@@ -16,6 +16,7 @@ export interface ButtonProps {
   withArrow?: boolean;
   className?: string;
   ariaLabel?: string;
+  type?: 'button' | 'submit';
 }
 
 /**
@@ -33,6 +34,7 @@ export function Button({
   withArrow = false,
   className = '',
   ariaLabel,
+  type = 'button',
 }: ButtonProps) {
   const magneticRef = useMagnetic<HTMLSpanElement>();
 
@@ -113,7 +115,7 @@ export function Button({
   }
 
   return (
-    <button type="button" aria-label={ariaLabel} onClick={handleClick} className="inline-flex">
+    <button type={type} aria-label={ariaLabel} onClick={handleClick} className="inline-flex">
       {inner}
     </button>
   );

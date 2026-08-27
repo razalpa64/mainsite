@@ -19,7 +19,7 @@ export function Contact() {
 
       <div className="relative mx-auto flex w-full max-w-[1300px] flex-col px-5 md:px-10">
         <div className="flex justify-center">
-          <SectionLabel index="06" label={contact.label} />
+          <SectionLabel index="07" label={contact.label} />
         </div>
 
         <h2 className="mx-auto mt-10 max-w-4xl text-center font-display text-[clamp(2.4rem,5.6vw,5rem)] font-medium leading-[1.05] tracking-[-0.01em] text-ink">

@@ -83,22 +83,22 @@ export function Hero({ booted }: HeroProps) {
         {brand.name}
       </span>
 
-      <div className="relative z-10 mx-auto grid w-full max-w-[1300px] flex-1 grid-cols-1 items-center gap-14 px-5 pb-12 pt-32 md:px-10 lg:grid-cols-12 lg:gap-10">
+      <div className="relative z-10 mx-auto grid w-full max-w-[1300px] flex-1 grid-cols-1 items-center gap-12 px-5 pb-8 pt-28 md:px-10 lg:grid-cols-12 lg:gap-10">
         {/* Copy */}
         <div className="lg:col-span-7">
           <p data-hero-eyebrow className="font-mono text-[11px] uppercase tracking-[0.3em] text-gold opacity-0">
             {hero.eyebrow}
           </p>
 
-          <h1 className="mt-7 font-display text-[clamp(2.8rem,7vw,6.2rem)] font-medium leading-[1.04] tracking-[-0.01em] text-ink">
+          <h1 className="mt-6 font-display text-[clamp(2.8rem,7vw,6rem)] font-medium leading-[1.04] tracking-[-0.01em] text-ink">
             <SplitLines as="span" lines={hero.headlineLines} trigger="none" />
           </h1>
 
-          <p data-hero-fade className="mt-7 max-w-xl text-base leading-relaxed text-muted opacity-0 md:text-lg">
+          <p data-hero-fade className="mt-6 max-w-xl text-base leading-relaxed text-muted opacity-0 md:text-lg">
             {hero.statement}
           </p>
 
-          <div data-hero-fade className="mt-9 flex flex-wrap items-center gap-4 opacity-0">
+          <div data-hero-fade className="mt-8 flex flex-wrap items-center gap-4 opacity-0">
             <Button href={hero.primaryCta.href} variant="solid" size="lg">
               {hero.primaryCta.label}
             </Button>
@@ -126,7 +126,7 @@ export function Hero({ booted }: HeroProps) {
       {/* Pillars strip */}
       <div data-hero-fade className="relative z-10 opacity-0">
         <div className="hairline mx-auto w-full max-w-[1300px]" />
-        <div className="mx-auto grid w-full max-w-[1300px] grid-cols-1 gap-6 px-5 py-7 sm:grid-cols-3 md:px-10">
+        <div className="mx-auto grid w-full max-w-[1300px] grid-cols-1 gap-6 px-5 py-6 sm:grid-cols-3 md:px-10">
           {brand.pillars.map((pillar, i) => (
             <div key={pillar} className={`flex items-baseline gap-4 ${i > 0 ? 'sm:border-l sm:border-ink/10 sm:pl-8' : ''}`}>
               <span className="font-mono text-xs text-gold">0{i + 1}</span>

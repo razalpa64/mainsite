@@ -154,21 +154,21 @@ img {
   }
 }
 
-/* ── Scrollbar (subtle, brand) ────────────────────────────────────────────── */
+/* ── Scrollbar: hidden (scroll still works) for a clean cinematic canvas ──── */
+
+html,
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
 
 * {
-  scrollbar-width: thin;
-  scrollbar-color: rgb(26 24 21 / 0.3) transparent;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 *::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-*::-webkit-scrollbar-thumb {
-  background: rgb(26 24 21 / 0.28);
-  border-radius: 999px;
-}
-*::-webkit-scrollbar-track {
-  background: transparent;
+  display: none;
+  width: 0;
+  height: 0;
 }

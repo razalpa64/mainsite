@@ -58,8 +58,13 @@ function BusinessRow({ business, index, flip }: { business: Business; index: num
           ))}
         </ul>
 
-        <div className="mt-8">
-          <Button href="#contact" variant="ghost" size="md" withArrow>
+        <div className="mt-8 flex flex-wrap items-center gap-5">
+          {business.url && (
+            <Button href={business.url} variant="solid" size="md" external withArrow>
+              {business.visitLabel ?? 'Visit Website'}
+            </Button>
+          )}
+          <Button href="#contact" variant="quiet" size="md">
             {business.ctaLabel}
           </Button>
         </div>

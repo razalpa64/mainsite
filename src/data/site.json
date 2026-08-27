@@ -40,6 +40,7 @@
     "links": [
       { "id": "home", "label": "Home", "href": "#home" },
       { "id": "businesses", "label": "Businesses", "href": "#businesses" },
+      { "id": "work", "label": "Our Work", "href": "#work" },
       { "id": "reviews", "label": "Reviews", "href": "#reviews" },
       { "id": "about", "label": "About", "href": "#about" },
       { "id": "contact", "label": "Contact", "href": "#contact" }
@@ -90,7 +91,9 @@
         "description": "An online education platform for tutoring, courses, academic support and skill development — built around the learner, not the lecture.",
         "points": ["Online tutoring", "Structured courses", "Academic support", "Skill development"],
         "image": "/assets/images/business/learning.jpg",
-        "ctaLabel": "Start Learning"
+        "ctaLabel": "Start Learning",
+        "url": "https://learning.invytra.com",
+        "visitLabel": "Visit Website"
       },
       {
         "id": "invytra-projects",
@@ -101,7 +104,9 @@
         "description": "We help college and university students turn academic concepts into real, functional projects — software, web, mobile, AI/ML, IoT, databases and final-year work.",
         "points": ["Software & web apps", "Mobile applications", "AI/ML & IoT projects", "Mini & final-year projects"],
         "image": "/assets/images/business/projects.jpg",
-        "ctaLabel": "Build Your Project"
+        "ctaLabel": "Build Your Project",
+        "url": "https://projects.invytra.com",
+        "visitLabel": "Visit Website"
       },
       {
         "id": "invytra-events",
@@ -112,8 +117,26 @@
         "description": "An events and celebration house crafting weddings, college and corporate events, digital invitations and special occasions — designed, produced and remembered.",
         "points": ["Weddings & celebrations", "College & corporate events", "Digital invitations", "Full event production"],
         "image": "/assets/images/business/events.jpg",
-        "ctaLabel": "Plan Your Event"
+        "ctaLabel": "Plan Your Event",
+        "url": "https://events.invytra.com",
+        "visitLabel": "Visit Website"
       }
+    ]
+  },
+
+  "work": {
+    "id": "work",
+    "label": "See Our Work",
+    "title": "Proof, not promises.",
+    "lead": "A glimpse of what the three businesses have already made real.",
+    "allLabel": "All",
+    "items": [
+      { "id": "w-learn-1", "title": "Live 1:1 tutoring", "business": "Learn", "blurb": "Personal online tutoring that turns confusion into confidence.", "image": "/assets/images/work/learn-1.jpg" },
+      { "id": "w-learn-2", "title": "Structured course library", "business": "Learn", "blurb": "Self-paced courses with clear paths and visible progress.", "image": "/assets/images/work/learn-2.jpg" },
+      { "id": "w-create-1", "title": "Final-year AI project", "business": "Create", "blurb": "From concept to a working, presentable AI/ML build.", "image": "/assets/images/work/create-1.jpg" },
+      { "id": "w-create-2", "title": "Campus web platform", "business": "Create", "blurb": "A student web application shipped end to end.", "image": "/assets/images/work/create-2.jpg" },
+      { "id": "w-cel-1", "title": "Wedding production", "business": "Celebrate", "blurb": "A full wedding designed, produced and remembered.", "image": "/assets/images/work/celebrate-1.jpg" },
+      { "id": "w-cel-2", "title": "College fest", "business": "Celebrate", "blurb": "A campus celebration with energy, light and detail.", "image": "/assets/images/work/celebrate-2.jpg" }
     ]
   },
 
@@ -147,7 +170,16 @@
         "role": "Engineering student, Invytra Projects",
         "business": "Create"
       }
-    ]
+    ],
+    "form": {
+      "title": "Share your experience",
+      "lead": "Worked with us? Your words help the next student, family or team.",
+      "name": "Your name",
+      "business": "Which business?",
+      "review": "Your review",
+      "submit": "Submit Review",
+      "thanks": "Thank you — your review has been added."
+    }
   },
 
   "about": {

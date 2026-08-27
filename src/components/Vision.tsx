@@ -26,7 +26,7 @@ export function Vision() {
       />
 
       <div className="relative mx-auto flex w-full max-w-[1300px] flex-col items-center px-5 text-center md:px-10">
-        <SectionLabel index="05" label={vision.label} tone="light" />
+        <SectionLabel index="06" label={vision.label} tone="light" />
 
         <h2 className="mt-10 font-display text-[clamp(2.6rem,7vw,6.4rem)] font-medium leading-[1.0] tracking-[-0.01em]">
           <SplitLines as="span" lines={vision.headline.split('\n')} />

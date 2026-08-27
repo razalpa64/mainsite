@@ -1,5 +1,3 @@
-import { brand } from '@/lib/content';
-
 /**
  * The Invytra brand lockup, rebuilt as crisp vector/type so it scales perfectly
  * and matches the provided mark: serif wordmark with a gold "Y" and a gold dot in
@@ -115,5 +113,3 @@ export function Logo({
     </span>
   );
 }
-
-export { brand };

@@ -35,6 +35,9 @@ export interface Business {
   points: string[];
   image: string;
   ctaLabel: string;
+  /** standalone website for this business (external) */
+  url: string;
+  visitLabel?: string;
 }
 
 export interface Review {
@@ -42,6 +45,14 @@ export interface Review {
   name: string;
   role: string;
   business: string;
+}
+
+export interface WorkItem {
+  id: string;
+  title: string;
+  business: Pillar;
+  blurb: string;
+  image: string;
 }
 
 export interface SocialLink {
@@ -116,12 +127,30 @@ export interface SiteContent {
     items: Business[];
   };
 
+  work: {
+    id: string;
+    label: string;
+    title: string;
+    lead: string;
+    allLabel: string;
+    items: WorkItem[];
+  };
+
   reviews: {
     id: string;
     label: string;
     title: string;
     lead: string;
     items: Review[];
+    form: {
+      title: string;
+      lead: string;
+      name: string;
+      business: string;
+      review: string;
+      submit: string;
+      thanks: string;
+    };
   };
 
   about: {

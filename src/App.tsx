@@ -8,6 +8,7 @@ import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
 import { Intro } from '@/components/Intro';
 import { Businesses } from '@/components/Businesses';
+import { Work } from '@/components/Work';
 import { Reviews } from '@/components/Reviews';
 import { About } from '@/components/About';
 import { Vision } from '@/components/Vision';
@@ -37,6 +38,7 @@ export default function App() {
         <Hero booted={booted} />
         <Intro />
         <Businesses />
+        <Work />
         <Reviews />
         <About />
         <Vision />

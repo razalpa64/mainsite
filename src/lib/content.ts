@@ -35,6 +35,7 @@ export const {
   hero,
   intro,
   businesses,
+  work,
   reviews,
   about,
   vision,
