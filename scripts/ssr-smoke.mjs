@@ -15,11 +15,12 @@ try {
   const html = renderToString(React.createElement(App));
 
   const checks = [
-    ['hero headline', html.includes('We build')],
-    ['ventures present', html.includes('Invytra Learning')],
-    ['ecosystem', html.includes('Future Ventures')],
-    ['services', html.includes('Digital Products')],
-    ['contact', html.includes('worth remembering')],
+    ['hero headline', html.includes('Ideas today.')],
+    ['learning', html.includes('Invytra Learning')],
+    ['projects', html.includes('Invytra Projects')],
+    ['events', html.includes('Invytra Events')],
+    ['reviews', html.includes('Trusted by')],
+    ['contact', html.includes('make your idea real')],
     ['footer', html.includes('All rights reserved')],
   ];
 

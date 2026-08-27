@@ -3,318 +3,149 @@
     "siteName": "INVYTRA",
     "siteUrl": "https://invytra.com",
     "canonical": "https://invytra.com/",
-    "title": "INVYTRA — Technology, Creative & Digital Ecosystem",
-    "titleTemplate": "%s — INVYTRA",
-    "description": "Invytra is a technology and creative ecosystem building digital products, learning experiences and new ventures under one direction.",
+    "title": "INVYTRA — Learn. Create. Celebrate.",
+    "description": "Invytra is the parent company behind Invytra Learning, Invytra Projects and Invytra Events — learn, create and celebrate under one brand.",
     "keywords": [
       "Invytra",
       "Invytra Learning",
-      "technology company",
-      "digital products",
-      "creative studio",
-      "technology education",
-      "software development",
-      "brand identity"
+      "Invytra Projects",
+      "Invytra Events",
+      "online learning",
+      "college projects",
+      "final year projects",
+      "events and celebrations"
     ],
     "ogImage": "/assets/images/og/cover.jpg",
-    "ogType": "website",
-    "themeColor": "#0E0F13",
+    "themeColor": "#1a1815",
     "locale": "en_US",
-    "twitterCard": "summary_large_image",
     "robots": "index, follow, max-image-preview:large"
   },
 
   "brand": {
     "name": "INVYTRA",
     "legalName": "Invytra",
-    "category": "Digital Ecosystem",
-    "tagline": "We build what's next.",
-    "statement": "Invytra is a technology and creative company building digital products, learning experiences and new ventures under one shared direction.",
-    "shortStatement": "A technology and creative ecosystem.",
-    "accentWord": "next"
+    "tagline": "Ideas today. Impact tomorrow.",
+    "pillars": ["Learn", "Create", "Celebrate"],
+    "statement": "Invytra is one company with three ways of making ideas real — we help you learn, we help you create, and we help you celebrate.",
+    "shortStatement": "Learn. Create. Celebrate."
   },
 
   "loading": {
     "enabled": true,
     "wordmark": "INVYTRA",
-    "label": "Establishing the ecosystem"
+    "label": "Ideas today. Impact tomorrow."
   },
 
   "navigation": {
     "links": [
       { "id": "home", "label": "Home", "href": "#home" },
+      { "id": "businesses", "label": "Businesses", "href": "#businesses" },
+      { "id": "reviews", "label": "Reviews", "href": "#reviews" },
       { "id": "about", "label": "About", "href": "#about" },
-      { "id": "ventures", "label": "Ventures", "href": "#ventures" },
-      { "id": "services", "label": "Services", "href": "#services" },
-      { "id": "education", "label": "Education", "href": "#education" },
       { "id": "contact", "label": "Contact", "href": "#contact" }
     ],
-    "cta": {
-      "label": "Let's Talk",
-      "href": "#contact"
-    },
+    "cta": { "label": "Let's Talk", "href": "#contact" },
     "menuLabel": "Menu",
     "closeLabel": "Close"
   },
 
   "hero": {
     "id": "home",
-    "eyebrow": "INVYTRA — DIGITAL ECOSYSTEM",
-    "headlineLines": ["We build", "what's next."],
-    "statement": "A technology and creative ecosystem building digital products, learning experiences and new ventures — all moving in one direction.",
-    "primaryCta": { "label": "Explore Invytra", "href": "#about", "variant": "solid" },
-    "secondaryCta": { "label": "Our Ventures", "href": "#ventures", "variant": "ghost" },
-    "stats": [
-      { "label": "Pillars", "value": "auto:pillars" },
-      { "label": "Ventures", "value": "auto:ventures" },
-      { "label": "Focus", "value": "Long-term" }
-    ],
-    "statsNote": "Counted live from the ecosystem data — no invented figures.",
-    "scrollCue": "Scroll",
+    "eyebrow": "INVYTRA — LEARN · CREATE · CELEBRATE",
+    "headlineLines": ["Ideas today.", "Impact tomorrow."],
+    "statement": "One Invytra, three crafts: a learning platform, a project studio for students, and an events house — each with its own identity, all under one standard.",
+    "primaryCta": { "label": "Explore Our Businesses", "href": "#businesses", "variant": "solid" },
+    "secondaryCta": { "label": "Start a Conversation", "href": "#contact", "variant": "ghost" },
     "image": "/assets/images/hero/main.jpg",
-    "imageAlt": "The Invytra studio — technology, learning and creative work converging in one space",
-    "visual": {
-      "label": "The Ecosystem",
-      "reducedMotionFallback": true
-    }
+    "imageAlt": "An elegant still life representing learning, creating and celebrating under Invytra",
+    "scrollCue": "Scroll"
   },
 
   "intro": {
-    "id": "philosophy-intro",
-    "label": "The Idea",
+    "id": "intro",
+    "label": "The Parent Company",
     "statementLines": [
-      "Invytra is built around one idea:",
-      "technology should create",
-      "meaningful experiences."
+      "Invytra is not one service.",
+      "It is one company,",
+      "three ways of making it real."
     ],
     "body": [
-      "Most technology is built to be impressive. We build it to be useful, understandable and worth returning to.",
-      "Everything under Invytra — the products, the platforms, the learning experiences — starts from the same question: does this genuinely improve something for the person using it?"
-    ],
-    "principles": [
-      { "index": "01", "name": "Build", "description": "Products engineered to hold up in real use, not just in a demo." },
-      { "index": "02", "name": "Create", "description": "Design that carries intention through every detail and interaction." },
-      { "index": "03", "name": "Educate", "description": "Making complex technology something people can actually learn." },
-      { "index": "04", "name": "Impact", "description": "Work measured by what changes for the people it reaches." }
+      "Every Invytra business starts from the same belief — an idea is only as good as what it becomes. So we built three doors into the same company.",
+      "Learn to master a skill. Create to turn a concept into a working project. Celebrate to mark the moments that matter."
     ]
   },
 
-  "ecosystem": {
-    "id": "ecosystem",
-    "label": "What Is Invytra",
-    "title": "One ecosystem.\nMultiple directions.",
-    "lead": "Invytra is not a single product. It is a parent structure — a shared identity, engineering standard and creative language that new ventures are built on top of.",
-    "rootLabel": "INVYTRA",
-    "rootCaption": "Parent brand",
-    "branches": [
-      {
-        "id": "technology",
-        "name": "Technology",
-        "index": "01",
-        "tagline": "Systems that do the hard work quietly.",
-        "description": "Software development, automation, intelligent systems and the infrastructure that keeps everything else running.",
-        "focus": ["Software development", "Automation", "Intelligent systems", "Infrastructure"],
-        "status": "Active"
-      },
-      {
-        "id": "education",
-        "name": "Education",
-        "index": "02",
-        "tagline": "Learning built for how technology actually works.",
-        "description": "Technology-enabled learning experiences and educational platforms designed around clarity, pacing and real outcomes.",
-        "focus": ["Learning platforms", "Structured curricula", "Hands-on practice", "Educational tooling"],
-        "status": "Active"
-      },
-      {
-        "id": "creative",
-        "name": "Creative",
-        "index": "03",
-        "tagline": "Identity that makes the work recognisable.",
-        "description": "Brand identity, digital design, visual experiences and creative technology — the layer that makes Invytra feel like Invytra.",
-        "focus": ["Brand identity", "Digital design", "Visual experience", "Creative technology"],
-        "status": "Active"
-      },
-      {
-        "id": "digital-products",
-        "name": "Digital Products",
-        "index": "04",
-        "tagline": "Platforms people want to come back to.",
-        "description": "Websites, platforms, applications and digital experiences designed end to end — from first idea to shipped product.",
-        "focus": ["Websites & platforms", "Applications", "Product design", "Digital experience"],
-        "status": "Active"
-      },
-      {
-        "id": "future-ventures",
-        "name": "Future Ventures",
-        "index": "05",
-        "tagline": "What we are forming next.",
-        "description": "A standing space for new ideas — concepts being researched, prototyped and prepared until they are ready to stand on their own.",
-        "focus": ["Research", "Prototyping", "New markets", "Partnerships"],
-        "status": "Ongoing"
-      }
-    ],
-    "hint": "Select a branch to explore"
-  },
-
-  "ventures": {
-    "id": "ventures",
-    "label": "Our Ventures",
-    "title": "Everything we are building\nlives here.",
-    "lead": "Each venture carries the Invytra standard — its own identity, its own audience, the same underlying care.",
-    "ctaLabel": "Visit",
-    "unavailableLabel": "Not live yet",
-    "dragHint": "Drag or scroll",
+  "businesses": {
+    "id": "businesses",
+    "label": "Our Businesses",
+    "title": "Three businesses.\nOne Invytra.",
+    "lead": "Each has its own identity and its own craft — together they are the Invytra ecosystem.",
     "items": [
       {
         "id": "invytra-learning",
+        "pillar": "Learn",
         "name": "Invytra Learning",
-        "category": "Education",
-        "status": "Active",
-        "year": "Flagship",
-        "description": "A learning platform built around how people actually absorb technology — structured paths, practical work and progress you can see.",
-        "philosophy": "Technology education fails when it explains tools instead of thinking. Invytra Learning is built the other way round.",
-        "highlights": ["Structured learning paths", "Practical, hands-on work", "Progress that is visible"],
-        "image": "/assets/images/ventures/learning.jpg",
-        "url": "https://invytra.com/learning",
-        "ctaLabel": "Explore Venture"
+        "category": "Online Learning",
+        "positioning": "Accessible, personal, engaging education.",
+        "description": "An online education platform for tutoring, courses, academic support and skill development — built around the learner, not the lecture.",
+        "points": ["Online tutoring", "Structured courses", "Academic support", "Skill development"],
+        "image": "/assets/images/business/learning.jpg",
+        "ctaLabel": "Start Learning"
       },
       {
-        "id": "invytra-labs",
-        "name": "Invytra Labs",
-        "category": "Technology",
-        "status": "In Development",
-        "year": "Building",
-        "description": "The engineering side of the ecosystem — software, automation and intelligent systems built for internal ventures and external partners.",
-        "philosophy": "Good infrastructure is invisible. It should remove work, never add it.",
-        "highlights": ["Custom software", "Automation", "Intelligent systems"],
-        "image": "/assets/images/ventures/labs.jpg",
-        "url": "",
-        "ctaLabel": "Coming Soon"
+        "id": "invytra-projects",
+        "pillar": "Create",
+        "name": "Invytra Projects",
+        "category": "College & Student Projects",
+        "positioning": "From idea to working project.",
+        "description": "We help college and university students turn academic concepts into real, functional projects — software, web, mobile, AI/ML, IoT, databases and final-year work.",
+        "points": ["Software & web apps", "Mobile applications", "AI/ML & IoT projects", "Mini & final-year projects"],
+        "image": "/assets/images/business/projects.jpg",
+        "ctaLabel": "Build Your Project"
       },
       {
-        "id": "invytra-studio",
-        "name": "Invytra Studio",
-        "category": "Creative",
-        "status": "In Development",
-        "year": "Building",
-        "description": "Brand identity, digital design and creative technology — the practice that gives every Invytra venture a recognisable point of view.",
-        "philosophy": "Identity is not decoration. It is how a company explains itself without speaking.",
-        "highlights": ["Brand identity", "Digital design", "Creative technology"],
-        "image": "/assets/images/ventures/studio.jpg",
-        "url": "",
-        "ctaLabel": "Coming Soon"
-      },
-      {
-        "id": "invytra-platform",
-        "name": "Invytra Platform",
-        "category": "Digital Products",
-        "status": "Concept",
-        "year": "Forming",
-        "description": "A shared product layer — the accounts, tooling and distribution that let new Invytra ventures launch without starting from zero.",
-        "philosophy": "Every new venture should inherit what already works.",
-        "highlights": ["Shared infrastructure", "Product tooling", "Distribution"],
-        "image": "/assets/images/ventures/platform.jpg",
-        "url": "",
-        "ctaLabel": "In Concept"
+        "id": "invytra-events",
+        "pillar": "Celebrate",
+        "name": "Invytra Events",
+        "category": "Events & Experiences",
+        "positioning": "Moments worth remembering.",
+        "description": "An events and celebration house crafting weddings, college and corporate events, digital invitations and special occasions — designed, produced and remembered.",
+        "points": ["Weddings & celebrations", "College & corporate events", "Digital invitations", "Full event production"],
+        "image": "/assets/images/business/events.jpg",
+        "ctaLabel": "Plan Your Event"
       }
     ]
   },
 
-  "featuredVenture": {
-    "id": "education",
-    "ventureId": "invytra-learning",
-    "label": "Featured Venture",
-    "title": "Invytra Learning",
-    "kicker": "Education",
-    "statement": "Learning that respects how people think.",
-    "body": [
-      "Invytra Learning is the first venture to carry the full weight of the ecosystem — technology, design and education built together rather than bolted onto each other.",
-      "It is designed around a simple belief: people do not fail at technology because it is hard. They fail because it is taught badly."
-    ],
-    "principles": [
-      { "name": "Clarity first", "description": "If a concept needs three explanations, the explanation is wrong." },
-      { "name": "Practice over theory", "description": "Every module ends with something the learner has actually made." },
-      { "name": "Visible progress", "description": "You should always know where you are and what comes next." }
-    ],
-    "cta": { "label": "Explore Venture", "href": "https://invytra.com/learning" },
-    "secondaryCta": { "label": "All Ventures", "href": "#ventures" }
-  },
-
-  "services": {
-    "id": "services",
-    "label": "What We Do",
-    "title": "Four practices.\nOne standard.",
-    "lead": "Whether it is a product, a platform or a brand, the work is built the same way — carefully, end to end.",
+  "reviews": {
+    "id": "reviews",
+    "label": "Reviews",
+    "title": "Trusted by students,\nfamilies and teams.",
+    "lead": "A few words from the people our three businesses serve.",
     "items": [
       {
-        "id": "digital-products",
-        "index": "01",
-        "name": "Digital Products",
-        "headline": "Websites, platforms and digital experiences.",
-        "description": "From the first sketch to the shipped product — interfaces that are considered, fast and built to be used daily.",
-        "deliverables": ["Websites & marketing sites", "Web platforms", "Applications", "Design systems"],
-        "image": "/assets/images/services/digital-products.jpg"
+        "quote": "The tutoring finally made concepts click. I went from struggling to genuinely enjoying the subject.",
+        "name": "Ananya S.",
+        "role": "Student, Invytra Learning",
+        "business": "Learn"
       },
       {
-        "id": "technology",
-        "index": "02",
-        "name": "Technology",
-        "headline": "Software, automation and intelligent systems.",
-        "description": "Engineering that removes work instead of adding it — built on standards that survive change.",
-        "deliverables": ["Software development", "Automation", "Intelligent systems", "Infrastructure"],
-        "image": "/assets/images/services/technology.jpg"
+        "quote": "They took my final-year idea and helped me ship a working project I was proud to present.",
+        "name": "Rahul M.",
+        "role": "Final-year student, Invytra Projects",
+        "business": "Create"
       },
       {
-        "id": "creative",
-        "index": "03",
-        "name": "Creative",
-        "headline": "Identity, design and creative technology.",
-        "description": "The visual and experiential layer — the reason a product feels like it belongs to someone.",
-        "deliverables": ["Brand identity", "Digital design", "Visual experiences", "Art direction"],
-        "image": "/assets/images/services/creative.jpg"
+        "quote": "Our wedding felt effortless. Every detail was handled, and every moment was captured beautifully.",
+        "name": "Meera & Arjun",
+        "role": "Invytra Events",
+        "business": "Celebrate"
       },
       {
-        "id": "education",
-        "index": "04",
-        "name": "Education",
-        "headline": "Technology-enabled learning experiences.",
-        "description": "Learning platforms and curricula designed for comprehension, pacing and genuine outcomes.",
-        "deliverables": ["Learning platforms", "Curriculum design", "Educational tooling", "Content systems"],
-        "image": "/assets/images/services/education.jpg"
-      }
-    ],
-    "closingNote": "Not sure where your project fits? That conversation is usually the fastest one."
-  },
-
-  "philosophy": {
-    "id": "why",
-    "label": "Why Invytra",
-    "title": "The way we work",
-    "lead": "Four principles decide almost everything — what we build, how it looks, and what we turn down.",
-    "principles": [
-      {
-        "index": "01",
-        "name": "Think Beyond",
-        "statement": "We don't build only for today.",
-        "description": "Every product is designed with the next three versions already in mind, so growth never means starting over."
-      },
-      {
-        "index": "02",
-        "name": "Design With Purpose",
-        "statement": "Every interaction should have a reason.",
-        "description": "If a detail does not help the person using it, it does not ship. Restraint is a design decision, not a limitation."
-      },
-      {
-        "index": "03",
-        "name": "Technology With Humanity",
-        "statement": "Technology should improve experiences, not complicate them.",
-        "description": "The best engineering disappears. What is left should feel obvious, calm and quietly capable."
-      },
-      {
-        "index": "04",
-        "name": "Built to Evolve",
-        "statement": "Products and ventures should be designed for growth.",
-        "description": "Systems are structured so new ventures can be added without rewriting the ones that already exist."
+        "quote": "Clear guidance, real code, and a project that actually works. Exactly what I needed.",
+        "name": "Fathima R.",
+        "role": "Engineering student, Invytra Projects",
+        "business": "Create"
       }
     ]
   },
@@ -322,90 +153,68 @@
   "about": {
     "id": "about",
     "label": "About Invytra",
-    "headlineLines": ["We're not building one thing.", "We're building a direction."],
+    "headlineLines": ["One brand.", "Three crafts.", "A single standard."],
     "body": [
-      "Invytra exists because the most interesting work rarely fits inside a single product. It needs an ecosystem — a place where engineering, design and education inform each other instead of competing.",
-      "So we are building the ecosystem. Each venture stands on its own with its own audience and identity, while sharing the same standards, systems and long-term ambition."
+      "Invytra exists because the best ideas rarely fit in a single box. A student who learns with us may build a project with us, and celebrate the result with us.",
+      "So we built one company that carries all three — each business distinct, each held to the same standard of care."
     ],
-    "visionStatement": "To build a company that outlives any single product it makes.",
-    "pillars": [
-      { "name": "Vision", "description": "A technology company whose work compounds — where each venture makes the next one easier to build." },
-      { "name": "Philosophy", "description": "Clarity, restraint and usefulness, applied without exception across everything we ship." },
-      { "name": "Ambition", "description": "Not a portfolio of side projects. A single company with a single direction and a long horizon." },
-      { "name": "Ecosystem", "description": "Shared systems, shared standards, shared identity — and room for new ventures to arrive." }
-    ],
-    "images": [
-      { "src": "/assets/images/about/direction.jpg", "alt": "Abstract architectural forms suggesting structure and direction" },
-      { "src": "/assets/images/about/craft.jpg", "alt": "Close study of material and light representing craft" }
-    ]
+    "visionStatement": "Ideas today. Impact tomorrow."
   },
 
   "vision": {
     "id": "vision",
     "label": "The Horizon",
     "headline": "THIS IS ONLY\nTHE BEGINNING.",
-    "body": "Invytra is early by design. The ecosystem is still forming, and each new venture expands what the company is capable of. What exists today is the foundation — not the limit.",
-    "horizons": [
-      { "name": "Applied Intelligence", "description": "Intelligent systems that make products feel considered rather than complicated." },
-      { "name": "Learning at Scale", "description": "Education that stays personal even as it reaches more people." },
-      { "name": "Creative Technology", "description": "Where design, motion and engineering stop being separate disciplines." },
-      { "name": "New Ventures", "description": "Ideas still forming — researched, prototyped and prepared until they are ready." }
-    ],
-    "note": "Horizons, not promises. They describe where our attention is going."
+    "body": "Invytra is early by design. Learning deepens, projects grow into products, and celebrations become traditions. What exists today is the foundation — not the limit.",
+    "note": "Learn. Create. Celebrate. — then do it again, better."
   },
 
   "contact": {
     "id": "contact",
     "label": "Contact",
-    "headline": "Let's build something worth remembering.",
-    "body": "Have an idea, a partnership, a project, or an opportunity? Tell us what you're working on — we read everything.",
+    "headline": "Let's make your idea real.",
+    "body": "Whether you want to learn a skill, build a project, or celebrate a moment — tell us what you're dreaming of.",
     "primaryCta": { "label": "Start a Conversation", "href": "mailto:hello@invytra.com", "variant": "solid" },
-    "secondaryCta": { "label": "Explore Our Ventures", "href": "#ventures", "variant": "ghost" },
+    "secondaryCta": { "label": "Explore Our Businesses", "href": "#businesses", "variant": "ghost" },
     "email": { "label": "Email", "value": "hello@invytra.com", "href": "mailto:hello@invytra.com" },
     "secondary": [
-      { "label": "Partnerships", "value": "partners@invytra.com", "href": "mailto:partners@invytra.com" },
-      { "label": "Location", "value": "Working remotely, worldwide", "href": "" }
+      { "label": "Learning", "value": "learn@invytra.com", "href": "mailto:learn@invytra.com" },
+      { "label": "Projects", "value": "projects@invytra.com", "href": "mailto:projects@invytra.com" },
+      { "label": "Events", "value": "events@invytra.com", "href": "mailto:events@invytra.com" }
     ],
-    "responseNote": "We reply to serious enquiries within a few working days."
+    "responseNote": "We reply to every serious enquiry within a few working days."
   },
 
   "socials": [
-    { "id": "x", "label": "X", "handle": "@invytra", "url": "https://x.com/invytra", "icon": "x" },
-    { "id": "linkedin", "label": "LinkedIn", "handle": "/company/invytra", "url": "https://www.linkedin.com/company/invytra", "icon": "linkedin" },
-    { "id": "instagram", "label": "Instagram", "handle": "@invytra", "url": "https://www.instagram.com/invytra", "icon": "instagram" },
-    { "id": "github", "label": "GitHub", "handle": "/invytra", "url": "https://github.com/invytra", "icon": "github" }
+    { "id": "instagram", "label": "Instagram", "handle": "@invytra", "url": "https://www.instagram.com/invytra" },
+    { "id": "linkedin", "label": "LinkedIn", "handle": "/company/invytra", "url": "https://www.linkedin.com/company/invytra" },
+    { "id": "x", "label": "X", "handle": "@invytra", "url": "https://x.com/invytra" },
+    { "id": "youtube", "label": "YouTube", "handle": "@invytra", "url": "https://www.youtube.com/@invytra" }
   ],
 
   "footer": {
-    "statement": "A technology and creative ecosystem building digital products, learning experiences and new ventures.",
-    "columns": [
-      {
-        "title": "Explore",
-        "links": [
-          { "label": "Home", "href": "#home" },
-          { "label": "About", "href": "#about" },
-          { "label": "Ecosystem", "href": "#ecosystem" },
-          { "label": "Services", "href": "#services" },
-          { "label": "Contact", "href": "#contact" }
-        ]
-      }
+    "statement": "One company, three crafts — learn, create and celebrate under a single standard.",
+    "exploreTitle": "Explore",
+    "explore": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Businesses", "href": "#businesses" },
+      { "label": "Reviews", "href": "#reviews" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
     ],
-    "venturesColumnTitle": "Ventures",
-    "connectColumnTitle": "Connect",
+    "businessesTitle": "Businesses",
+    "connectTitle": "Connect",
     "legal": [
       { "label": "Privacy", "href": "#" },
       { "label": "Terms", "href": "#" }
     ],
     "copyright": "Invytra. All rights reserved.",
-    "colophon": "Designed and built by Invytra."
+    "colophon": "Learn. Create. Celebrate."
   },
 
   "settings": {
     "smoothScroll": true,
-    "enableHero3D": true,
-    "enableAmbient3D": true,
     "magneticButtons": true,
-    "respectReducedMotion": true,
-    "imageFadeIn": true
+    "respectReducedMotion": true
   }
 }

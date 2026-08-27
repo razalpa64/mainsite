@@ -6,98 +6,38 @@
     "srcsetFallback": "/assets/images/hero/main-800.jpg 800w",
     "width": 800,
     "height": 1000,
-    "lqip": "data:image/webp;base64,UklGRtgAAABXRUJQVlA4IMwAAAAwBQCdASoQABQAPrVInkmnJCKhMAgA4BaJQBOmUCrM2sBYR2fWwFTiB8bT2GkfEukagADhhTeo77F7bED88SCExth84R2qXASill4+rQ7WRuIKzYE3j4Tiux/AYXa7uSYsUS+dl1HSJLIzIDP6hIlE2CYP8/sNOoPaAPs+s6FZXn7Dx4bl6yhaTSnnthgBySOSIV54aDKWB9HMgUaVv+VAmFd4L9QZZqxJzukebyoi+B0+59UmpOAuCrGMOWmryymunXg1NHrWmVoAAAA=",
-    "hash": "271b2b7d"
+    "lqip": "data:image/webp;base64,UklGRrgAAABXRUJQVlA4IKwAAACQBACdASoQABQAPrVInkmnJCKhMAgA4BaJYwC06Ywmzyl91mzt34QrnKc85YAA/qMFhdce4nuURp2m1Dd17EuwuWK7xCPnLpNb+GjOmhtZ8FiBhetsQrfTx/1mypM+fDDDbcuxi622lSdBrz0hc74qcK2JFZDYyusGULiXRUpslwu35n9Q2tp78ICDMqhEh/yxKdvM4W3s49AwXUfD+Bn97VxDMWPnh5UEQwAA",
+    "hash": "1da131cd"
   },
-  "/assets/images/ventures/learning.jpg": {
-    "src": "/assets/images/ventures/learning-1024.webp",
-    "fallbackSrc": "/assets/images/ventures/learning-1024.jpg",
-    "srcset": "/assets/images/ventures/learning-640.webp 640w, /assets/images/ventures/learning-1024.webp 1024w",
-    "srcsetFallback": "/assets/images/ventures/learning-640.jpg 640w, /assets/images/ventures/learning-1024.jpg 1024w",
-    "width": 1024,
-    "height": 1536,
-    "lqip": "data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAACQBACdASoQABgAPrVInkmnJCKhMAgA4BaJQBOmUABlXltljBq5YDPTNPi6oAAA/lRy78+od5/6ch+9U5BSJIfvaNMdQjDZc6lPIZZ7nY8UPNuElFZoXa9Xp32YHwN0SNHDETIXYVERndXWmNI0mf4lBuV0YPv+Oc5wTCwmj/epwRGARC0c1LzY743y/46lGFUf5Fzb8uQlf6cv95fEU8aZUMVPhMrQe6YLdKYquitO3Usgzyxa6jUPIAA=",
-    "hash": "54df3f0a"
+  "/assets/images/business/learning.jpg": {
+    "src": "/assets/images/business/learning-1200.webp",
+    "fallbackSrc": "/assets/images/business/learning-1200.jpg",
+    "srcset": "/assets/images/business/learning-800.webp 800w, /assets/images/business/learning-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/business/learning-800.jpg 800w, /assets/images/business/learning-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAAAQAgCdASoQAAwAAoBCJQBOgBk6PHYcI5UAAP6t+/fklSVXX2yw/o7bPdQ0lxZOX5c30mGUznAL3LgrO1HcCwIWssjraRxghYz7G0Yh1XNy4ofv5cY74d1mOGbLLdU2TX8rtMGd/D4o6QJR9f/e5YnTlWRBRAAA",
+    "hash": "79235eb7"
   },
-  "/assets/images/ventures/labs.jpg": {
-    "src": "/assets/images/ventures/labs-1024.webp",
-    "fallbackSrc": "/assets/images/ventures/labs-1024.jpg",
-    "srcset": "/assets/images/ventures/labs-640.webp 640w, /assets/images/ventures/labs-1024.webp 1024w",
-    "srcsetFallback": "/assets/images/ventures/labs-640.jpg 640w, /assets/images/ventures/labs-1024.jpg 1024w",
-    "width": 1024,
-    "height": 1536,
-    "lqip": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAABQBACdASoQABgAPrVKnkonJCKhsAgA4BaJYwCdIL/CdjISkAbgrVMLvnusAP71g57DVaowNnhUhKWmxCN2F+58h9Y9UP4ivnEOV1lx9iJVPVjFWHC7T4pg3DklIFd66P+svgoxGtRxQWKAB+uvWiFvS+sCnJRwBAw4sBW1rjN0QCFUdwspm2Cii+4iUJ+6SYREIAAA",
-    "hash": "e1deca04"
+  "/assets/images/business/projects.jpg": {
+    "src": "/assets/images/business/projects-1200.webp",
+    "fallbackSrc": "/assets/images/business/projects-1200.jpg",
+    "srcset": "/assets/images/business/projects-800.webp 800w, /assets/images/business/projects-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/business/projects-800.jpg 800w, /assets/images/business/projects-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACwAgCdASoQAAwAAoBCJbACdLoAEJiYjD4NkXw6leAA/vnM3+9Bu78imKF2A+Zd3/9kT/z0JPBikeygA0dz1HT3s4Hu6uCWJ79W+TH4p/GAYm8iWP+hdCzjkNOzfFlDcdxnRfH+ed5AYvZYrpAAAA==",
+    "hash": "aee71d4f"
   },
-  "/assets/images/ventures/studio.jpg": {
-    "src": "/assets/images/ventures/studio-1024.webp",
-    "fallbackSrc": "/assets/images/ventures/studio-1024.jpg",
-    "srcset": "/assets/images/ventures/studio-640.webp 640w, /assets/images/ventures/studio-1024.webp 1024w",
-    "srcsetFallback": "/assets/images/ventures/studio-640.jpg 640w, /assets/images/ventures/studio-1024.jpg 1024w",
-    "width": 1024,
-    "height": 1536,
-    "lqip": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4INYAAACQBACdASoQABgAPrVInkmnJCKhMAgA4BaJQBOgMWMasezAQeLvpXBzKG8OXAAA/vGA+wCHiR9icpBrhBYLofSk63lVfDTl+YHu8y1qfQb35mA6Wc5oxL8i/HX3sK+Hwu34ePJeB6OFK0nfvPiyHxIx2by7o2iT0AauYI6C9n9pYb7sGFSEYn49Or4K9wK4Y3ivYOHnrlco+jyF05bIY/iH0MlWgrsw+e/CXuWSUSN4H4fzLxNZ7hnVCDrmMoXBKZjm+nBDed0SLOEnhSz64ZgKADinRUAA",
-    "hash": "e6773cea"
-  },
-  "/assets/images/ventures/platform.jpg": {
-    "src": "/assets/images/ventures/platform-1024.webp",
-    "fallbackSrc": "/assets/images/ventures/platform-1024.jpg",
-    "srcset": "/assets/images/ventures/platform-640.webp 640w, /assets/images/ventures/platform-1024.webp 1024w",
-    "srcsetFallback": "/assets/images/ventures/platform-640.jpg 640w, /assets/images/ventures/platform-1024.jpg 1024w",
-    "width": 1024,
-    "height": 1536,
-    "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAADwAwCdASoQABgAPrVKnkonJCKhsAgA4BaJZQC7ACG7i1sm3U3umC4AAP74S9f8frHKKJxNchBUt5PlOWVjTkCDjlepIOP5Wnnpbj+J+a7JCWly7cU+ZlrMmFKbcneM+dVdbnm4+Nhj+gAfW5UBvnTHva2PpKvRUu2oS5uFbJpqMdfwExUyco3H6c/AAA==",
-    "hash": "8a801a0d"
-  },
-  "/assets/images/services/digital-products.jpg": {
-    "src": "/assets/images/services/digital-products-960.webp",
-    "fallbackSrc": "/assets/images/services/digital-products-960.jpg",
-    "srcset": "/assets/images/services/digital-products-480.webp 480w, /assets/images/services/digital-products-960.webp 960w",
-    "srcsetFallback": "/assets/images/services/digital-products-480.jpg 480w, /assets/images/services/digital-products-960.jpg 960w",
-    "width": 960,
-    "height": 960,
-    "lqip": "data:image/webp;base64,UklGRqoAAABXRUJQVlA4IJ4AAADwAgCdASoQABAAAoBCJQBOgMWF+qnbei9Pj38fU/25AAD+yP/a/b30Ww/D2V4N57r+ZhtSyvu/dXbDXILfG9OwesEmSXQDeHcLaAtDvjf8K23uEw+z0C5cAcxzaK/offiQ5AOFJy3mGFV3yc+YOxjmwbctzrIgNbgoV3Jqe0Xpxp7eptMZUTi9L4yZuG3yw3MuyOIljy0tWF9rB7AAAA==",
-    "hash": "d8ccfdba"
-  },
-  "/assets/images/services/technology.jpg": {
-    "src": "/assets/images/services/technology-960.webp",
-    "fallbackSrc": "/assets/images/services/technology-960.jpg",
-    "srcset": "/assets/images/services/technology-480.webp 480w, /assets/images/services/technology-960.webp 960w",
-    "srcsetFallback": "/assets/images/services/technology-480.jpg 480w, /assets/images/services/technology-960.jpg 960w",
-    "width": 960,
-    "height": 960,
-    "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAABQAgCdASoQABAAAoBCJYgCdH8AgnCcw8+WZAAA/vG9ZsA4/Hv5nU/ztKLK6qXTNJcy0Mu8qGvpuowxkUQ3TmT90JUlGLUdZqFwilTq69IN06t0taayaJTtQ+92b4hDP8avw8hrMXNT87+a8G2SBb5MMf3Xn7Jn1/Y3biuV1ktvUFJkqAA=",
-    "hash": "aa111f9a"
-  },
-  "/assets/images/services/creative.jpg": {
-    "src": "/assets/images/services/creative-960.webp",
-    "fallbackSrc": "/assets/images/services/creative-960.jpg",
-    "srcset": "/assets/images/services/creative-480.webp 480w, /assets/images/services/creative-960.webp 960w",
-    "srcsetFallback": "/assets/images/services/creative-480.jpg 480w, /assets/images/services/creative-960.jpg 960w",
-    "width": 960,
-    "height": 960,
-    "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQAgCdASoQABAAAoBCJYgCdAYulwnJsFoMRAAA/vxKxXJmUoSNquqfjiqRY5P+nJV4SleQAs+WOZrpxNwzeqps+tKiic4twuqqCyGyknqbieLd2Bxh2Nh/MlmJ/ObOqEZop4bDbFRLbdNKwTRM40PkX7mYRRJ/of26q+TLSGmJUSDG45ZKHwIyTAAAAA==",
-    "hash": "8fe1e2ab"
-  },
-  "/assets/images/services/education.jpg": {
-    "src": "/assets/images/services/education-960.webp",
-    "fallbackSrc": "/assets/images/services/education-960.jpg",
-    "srcset": "/assets/images/services/education-480.webp 480w, /assets/images/services/education-960.webp 960w",
-    "srcsetFallback": "/assets/images/services/education-480.jpg 480w, /assets/images/services/education-960.jpg 960w",
-    "width": 960,
-    "height": 960,
-    "lqip": "data:image/webp;base64,UklGRpgAAABXRUJQVlA4IIwAAABQAgCdASoQABAAAoBCJYgCdAYtz2U082fr5QAA/uJl3Gp3QeYyrV1pHoZpPOVjAcH6s00k9ee8mkKfucLjtpZ3lAjI79zff+pl8bI0crkyN6h6hhlY6Cpc54/mR46Yn39Pr6CZpJHFkQd3+8hD58URC5yJIr3d8OtVdki3sVWXyzVyLKJhuVervIAAAA==",
-    "hash": "f9dce117"
-  },
-  "/assets/images/about/direction.jpg": {
-    "src": "/assets/images/about/direction-1024.webp",
-    "fallbackSrc": "/assets/images/about/direction-1024.jpg",
-    "srcset": "/assets/images/about/direction-640.webp 640w, /assets/images/about/direction-1024.webp 1024w",
-    "srcsetFallback": "/assets/images/about/direction-640.jpg 640w, /assets/images/about/direction-1024.jpg 1024w",
-    "width": 1024,
-    "height": 1536,
-    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAAAwBACdASoQABgAPrVKnkonJCKhsAgA4BaJZQCdMoACaDHRW3BewYbIwwAA/t09FsPXiM/36FDo/grz1tZ9NOE9P9eaBRiClyEwJL0JqgzipYg9blafIN/k+5MVydHAnHbdW+2TSstFfb+lVZldHGNnvyem0gFb8ClwQtLAAAA=",
-    "hash": "1d2e9892"
+  "/assets/images/business/events.jpg": {
+    "src": "/assets/images/business/events-1200.webp",
+    "fallbackSrc": "/assets/images/business/events-1200.jpg",
+    "srcset": "/assets/images/business/events-800.webp 800w, /assets/images/business/events-1200.webp 1200w",
+    "srcsetFallback": "/assets/images/business/events-800.jpg 800w, /assets/images/business/events-1200.jpg 1200w",
+    "width": 1200,
+    "height": 900,
+    "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAACQAgCdASoQAAwAAoBCJbACdLoAEIoYdNrjt/zUAAD+7Fv2szsjqm8ll7duEsWdhri939bOKwMvkrmoX6HcK2YUeC3d9KZISefvdbL618O4nhRTsv4po70ovWB4ZQx+6gF6IQIXdt+K0pd7mAfse7gy24i7s4rr/JnvKoQAAAA=",
+    "hash": "fe272bc3"
   },
   "/assets/images/og/cover.jpg": {
     "src": "/assets/images/og/cover.webp",
@@ -106,7 +46,7 @@
     "srcsetFallback": "/assets/images/og/cover.jpg 1200w",
     "width": 1200,
     "height": 630,
-    "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQAgCdASoQAAgAAoBCJQBOgCILmmrom4IAAM4yofVxb8+0nGO8djzPnN2b6pmWvGl+ZkaiQPkYlzGvIuKGv6O9s+IEuRP9Apy46TwqV2qSiliERSFv71JxcMif/UU+DaAAAA==",
-    "hash": "271b2b7d"
+    "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAgAAoBCJYwCdADbrPYMTAAA/umTO6i8cVaeV1UJWkrnMNMNIGX+VffpRKrC1Wm/cZiMR9+SE3ggU+NV17Jcq8vVVq1WL9rMbLYvQOsneIAA",
+    "hash": "1da131cd"
   }
 }

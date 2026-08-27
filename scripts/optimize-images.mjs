@@ -24,7 +24,7 @@ const OUT_DIR = path.join(root, 'public', 'assets', 'images');
 const MANIFEST_PATH = path.join(root, 'src', 'assets', 'images', 'manifest.json');
 
 /** Which responsive widths to emit per image class. */
-const WIDTHS = { portrait: [640, 1024], square: [480, 960], hero: [800, 1200] };
+const WIDTHS = { portrait: [640, 1024], square: [480, 960], hero: [800, 1200], business: [800, 1200] };
 
 /**
  * Source -> target. `kind` selects width list + ratio; `exact` overrides with a
@@ -32,21 +32,14 @@ const WIDTHS = { portrait: [640, 1024], square: [480, 960], hero: [800, 1200] };
  */
 const SPEC = [
   { src: 'hero-main.jpg', out: 'hero/main.jpg', kind: 'hero' },
-  { src: 'ventures-learning.jpg', out: 'ventures/learning.jpg', kind: 'portrait' },
-  { src: 'ventures-labs.jpg', out: 'ventures/labs.jpg', kind: 'portrait' },
-  { src: 'ventures-studio.jpg', out: 'ventures/studio.jpg', kind: 'portrait' },
-  { src: 'ventures-platform.jpg', out: 'ventures/platform.jpg', kind: 'portrait' },
-  { src: 'services-digital-products.jpg', out: 'services/digital-products.jpg', kind: 'square' },
-  { src: 'services-technology.jpg', out: 'services/technology.jpg', kind: 'square' },
-  { src: 'services-creative.jpg', out: 'services/creative.jpg', kind: 'square' },
-  { src: 'services-education.jpg', out: 'services/education.jpg', kind: 'square' },
-  { src: 'about-direction.jpg', out: 'about/direction.jpg', kind: 'portrait' },
-  { src: 'about-craft.jpg', out: 'about/craft.jpg', kind: 'portrait', optional: true },
+  { src: 'business-learning.jpg', out: 'business/learning.jpg', kind: 'business' },
+  { src: 'business-projects.jpg', out: 'business/projects.jpg', kind: 'business' },
+  { src: 'business-events.jpg', out: 'business/events.jpg', kind: 'business' },
   // OG cover is derived from the hero artwork so social shares always match the brand.
   { src: 'hero-main.jpg', out: 'og/cover.jpg', kind: 'og', exact: { width: 1200, height: 630 } },
 ];
 
-const RATIO = { portrait: 1024 / 1536, square: 1, hero: 4 / 5 };
+const RATIO = { portrait: 1024 / 1536, square: 1, hero: 4 / 5, business: 4 / 3 };
 
 function hash(input) {
   return createHash('md5').update(input).digest('hex').slice(0, 8);

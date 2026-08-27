@@ -7,19 +7,16 @@ import { Preloader } from '@/components/Preloader';
 import { Navbar } from '@/components/Navbar';
 import { Hero } from '@/components/Hero';
 import { Intro } from '@/components/Intro';
-import { Ecosystem } from '@/components/Ecosystem';
-import { Ventures } from '@/components/Ventures';
-import { FeaturedVenture } from '@/components/FeaturedVenture';
-import { Services } from '@/components/Services';
-import { Philosophy } from '@/components/Philosophy';
+import { Businesses } from '@/components/Businesses';
+import { Reviews } from '@/components/Reviews';
 import { About } from '@/components/About';
 import { Vision } from '@/components/Vision';
 import { Contact } from '@/components/Contact';
 import { Footer } from '@/components/Footer';
 
 /**
- * The Invytra main site, sequenced as one continuous story:
- * ARRIVE → UNDERSTAND → EXPLORE → BELIEVE → IMAGINE → ACT.
+ * The Invytra parent site: ARRIVE → UNDERSTAND → EXPLORE (3 businesses) →
+ * BELIEVE (reviews/about) → IMAGINE → ACT.
  */
 export default function App() {
   useSmoothScroll();
@@ -27,7 +24,6 @@ export default function App() {
 
   const handleBoot = useCallback(() => setBooted(true), []);
 
-  // If the loading screen is disabled, boot straight into the hero.
   useEffect(() => {
     if (!content.loading.enabled) setBooted(true);
   }, []);
@@ -40,11 +36,8 @@ export default function App() {
       <main id="home" className="relative">
         <Hero booted={booted} />
         <Intro />
-        <Ecosystem />
-        <Ventures />
-        <FeaturedVenture />
-        <Services />
-        <Philosophy />
+        <Businesses />
+        <Reviews />
         <About />
         <Vision />
         <Contact />

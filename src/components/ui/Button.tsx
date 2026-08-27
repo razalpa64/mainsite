@@ -65,7 +65,7 @@ export function Button({
             variant === 'solid'
               ? tone === 'light'
                 ? 'bg-black'
-                : 'bg-cobalt'
+                : 'bg-gold'
               : 'bg-paper/10'
           }`}
         />

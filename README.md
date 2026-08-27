@@ -1,23 +1,24 @@
-# INVYTRA — Main Website
+# INVYTRA — Parent Company Website
 
-The official parent-brand site for the **Invytra** ecosystem: a technology and
-creative company building digital products, learning experiences and new ventures
-under one direction.
+The official parent-brand site for **Invytra**: one company, three businesses —
+**Invytra Learning (LEARN)**, **Invytra Projects (CREATE)** and **Invytra Events
+(CELEBRATE)** — under the banner *"Ideas today. Impact tomorrow."*
 
-Built as a premium, editorial-tech marketing site — not a template. Light warm-ivory
-surfaces with deep charcoal type and a single restrained cobalt accent, cinematic
-motion, and a fully content-driven architecture.
+Luxury editorial identity drawn from the provided logo: warm ivory, soft black and
+signature **gold**, with a **serif display face (Playfair Display)** + Manrope body +
+Geist Mono micro-labels.
 
 ---
 
 ## Quick start
 
 ```bash
-npm install        # install dependencies
-npm run dev        # start the dev server (http://localhost:5173)
-npm run build      # type-check + production build to dist/
-npm run preview    # serve the production build
+npm install
+npm run dev        # http://localhost:5173
+npm run build      # type-check + production build
+npm run preview
 npm run images     # regenerate responsive image variants + manifest
+npm run smoke      # SSR render-path smoke test
 ```
 
 > Requires Node ≥ 20.19.
@@ -26,113 +27,60 @@ npm run images     # regenerate responsive image variants + manifest
 
 ## Stack
 
-- **React 19 + TypeScript** with **Vite**
-- **Tailwind CSS v4** (design tokens defined in `src/index.css` under `@theme`)
-- **GSAP + ScrollTrigger** for scroll choreography
-- **Lenis** for smooth scrolling
-- **Lucide React** for icons
-- **Three.js** (dynamically imported, tree-shaken) for the hero orbital visual
-- Self-hosted **Manrope Variable** + **Geist Mono** (no third-party font CDNs)
-
-No Bootstrap, no UI component libraries — the visual system is hand-built.
+- **React 19 + TypeScript + Vite**
+- **Tailwind CSS v4** (tokens in `src/index.css` under `@theme` — gold/ivory/ink, serif display)
+- **GSAP + ScrollTrigger**, **Lenis** smooth scroll, **Lucide React**
+- Self-hosted **Playfair Display Variable**, **Manrope Variable**, **Geist Mono**
+- No 3D, no Bootstrap, no UI libraries — the visual system is hand-built.
 
 ---
 
-## Content management (the important part)
+## Brand structure (the important part)
 
-Everything the site renders — brand copy, hero, navigation, the ecosystem tree,
-ventures, services, philosophy, about, vision, contact, socials and footer — lives
-in a **single JSON file**:
+The site presents Invytra as the **parent** over three distinct businesses, mapped to
+the brand pillars:
 
-```
-src/data/site.json
-```
+| Pillar    | Business         | Focus                                        |
+|-----------|------------------|----------------------------------------------|
+| LEARN     | Invytra Learning | Online tutoring, courses, academic support    |
+| CREATE    | Invytra Projects | College/final-year projects — *idea → working* |
+| CELEBRATE | Invytra Events   | Weddings, college/corporate events, invitations |
 
-The UI never hardcodes this content. To add/remove/edit a venture, change an image,
-update contact details or tweak copy, edit `site.json` and save — no component
-changes needed.
+All copy, businesses, reviews, contact channels, socials and footer live in
+**`src/data/site.json`** — edit it and the whole site updates. The typed, CMS-swappable
+data layer is `src/lib/content.ts`; the contract is `src/types/site.ts`.
 
-The typed data layer is in `src/lib/content.ts`. It resolves derived values
-(e.g. the hero's `auto:pillars` / `auto:ventures` figures are **counted from the
-data at runtime — never invented**) and is the single seam for a future backend:
-swap `loadContent()` to a Supabase/CMS/API query returning the same `SiteContent`
-shape and the whole site follows.
+---
 
-### Adding a venture
+## Logo
 
-Append an object to `ventures.items` in `site.json`:
-
-```json
-{
-  "id": "invytra-x",
-  "name": "Invytra X",
-  "category": "Technology",
-  "status": "Concept",
-  "year": "Forming",
-  "description": "…",
-  "image": "/assets/images/ventures/x.jpg",
-  "url": "",
-  "ctaLabel": "Coming Soon"
-}
-```
-
-The ventures rail, the footer ventures column and the counts all update automatically.
-Set a real `url` + `"status": "Active"` and the card becomes a live link and is counted
-as an active venture. The featured section reads `featuredVenture.ventureId`.
+The brand lockup is rebuilt as crisp vector/type in `src/components/ui/Logo.tsx`
+(serif INVYTRA with gold "Y" + gold dot, "IV" book monogram, gold rule + leaf, tagline
+and LEARN·CREATE·CELEBRATE). If you drop the original asset at
+`public/assets/brand/logo-full.png`, swap `<FullLockup/>` for an `<img>` and everything
+keeps working.
 
 ---
 
 ## Images
 
-Raw artwork lives in `src/assets/raw/` (gitignored — it never ships). The pipeline in
-`scripts/optimize-images.mjs` crops each source to its target aspect ratio and emits
-responsive WebP + JPEG variants plus a base64 blur-up placeholder into
-`public/assets/images/`, then writes `src/assets/images/manifest.json`.
-
-Add a new image by dropping a file in `src/assets/raw/`, adding a spec line in the
-script, referencing the public path in `site.json`, and running `npm run images`.
-
-`<ResponsiveImage />` reads the manifest to set the exact aspect ratio (zero layout
-shift), srcset/sizes, lazy loading and a graceful fade-in; missing images degrade to an
-art-directed placeholder surface rather than a broken asset.
+Raw artwork in `src/assets/raw/` (gitignored). `scripts/optimize-images.mjs` crops to
+target ratios and emits responsive WebP/JPEG + blur-up placeholders into
+`public/assets/images/`, writing `src/assets/images/manifest.json`.
+`<ResponsiveImage/>` guarantees correct aspect ratio (zero CLS), lazy loading and a
+graceful fade-in.
 
 ---
 
 ## Structure
 
 ```
-src/
-  components/        # Preloader, Navbar, Hero, Intro, Ecosystem, Ventures,
-                     # FeaturedVenture, Services, Philosophy, About, Vision,
-                     # Contact, Footer + ui/ primitives
-  components/ui/     # Button, Reveal, SplitLines, ResponsiveImage, SectionLabel
-  data/site.json     # ALL site content
-  lib/               # content, images, scroll, gsap
-  hooks/             # useSmoothScroll, useMagnetic, useMediaQuery, useInView
-  types/site.ts      # content type contract
-  assets/images/     # generated manifest
-public/
-  assets/images/     # optimized responsive variants
-  favicon*, robots.txt, sitemap.xml
+src/components/   Preloader, Navbar, Hero, Intro, Businesses, Reviews,
+                  About, Vision, Contact, Footer + ui/ (Logo, Button, Reveal,
+                  SplitLines, ResponsiveImage, SectionLabel)
+src/data/site.json  ALL content
 ```
 
----
-
-## Experience & accessibility
-
-- Emotional arc: **ARRIVE → UNDERSTAND → EXPLORE → BELIEVE → IMAGINE → ACT**.
-- Smooth scrolling (Lenis), pinned horizontal ventures showcase, line-mask type
-  reveals, magnetic CTAs, parallax imagery, cursor-aware hero visual.
-- `prefers-reduced-motion` is respected everywhere: the preloader is skipped, the
-  hero renders a still frame, the ventures rail becomes a native snap-scroll row and
-  reveals render statically.
-- Semantic landmarks, keyboard-focusable interactive elements, visible focus states,
-  alt text, AA-contrast type and a logical heading hierarchy.
-- No fake statistics, no lorem ipsum, no placeholder sections.
-
-## SEO
-
-Proper `<title>`, meta description, Open Graph / Twitter cards, canonical placeholder,
-`robots.txt`, and a sitemap-ready `public/sitemap.xml`. Update `meta.siteUrl` /
-`meta.canonical` in `site.json` and the canonical/OG URLs in `index.html` when the
-real domain is confirmed.
+Experience: ARRIVE → UNDERSTAND → EXPLORE (3 businesses) → BELIEVE (reviews/about) →
+IMAGINE → ACT. `prefers-reduced-motion`, a11y, SEO (OG, canonical placeholder, robots,
+sitemap) all handled. No fake statistics, no lorem ipsum.

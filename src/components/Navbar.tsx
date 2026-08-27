@@ -116,7 +116,7 @@ export function Navbar({ booted }: NavbarProps) {
                 {link.label}
                 <span
                   aria-hidden="true"
-                  className={`absolute -bottom-1.5 left-0 h-px w-full origin-left bg-cobalt transition-transform duration-500 ${
+                  className={`absolute -bottom-1.5 left-0 h-px w-full origin-left bg-gold transition-transform duration-500 ${
                     active === link.id ? 'scale-x-100' : 'scale-x-0'
                   }`}
                 />
@@ -183,7 +183,7 @@ export function Navbar({ booted }: NavbarProps) {
               }`}
               style={{ transitionDelay: open ? `${120 + i * 60}ms` : '0ms' }}
             >
-              <span className="font-mono text-xs text-cobalt-soft">0{i + 1}</span>
+              <span className="font-mono text-xs text-gold-soft">0{i + 1}</span>
               <span className="transition-transform duration-300 group-hover:translate-x-2">
                 {link.label}
               </span>
