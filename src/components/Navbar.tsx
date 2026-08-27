@@ -3,16 +3,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { content } from '@/lib/content';
 import { getScrollEngine, scrollToAnchor } from '@/lib/scroll';
 import { Button } from '@/components/ui/Button';
+import { Logo } from '@/components/ui/Logo';
 import { usePrefersReducedMotion } from '@/hooks/useMediaQuery';
-
-function LogoMark({ className = 'h-7 w-7' }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} aria-hidden="true">
-      <circle cx="30" cy="34" r="13" fill="none" stroke="currentColor" strokeWidth="5" />
-      <circle cx="46" cy="18" r="6" fill="var(--color-cobalt)" />
-    </svg>
-  );
-}
 
 export interface NavbarProps {
   booted: boolean;
@@ -101,13 +93,10 @@ export function Navbar({ booted }: NavbarProps) {
               e.preventDefault();
               onNavigate('#home');
             }}
-            className="group flex items-center gap-3 text-ink"
+            className="group text-ink"
             aria-label="Invytra home"
           >
-            <LogoMark className="h-7 w-7 transition-transform duration-500 group-hover:rotate-90" />
-            <span className="font-semibold tracking-[0.3em] text-sm md:text-base">
-              {content.brand.name}
-            </span>
+            <Logo size="sm" />
           </a>
 
           {/* Desktop nav */}

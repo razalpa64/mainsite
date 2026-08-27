@@ -1,5 +1,6 @@
 import { footer, brand, socials, ventures, navigation, contact } from '@/lib/content';
 import { scrollToAnchor } from '@/lib/scroll';
+import { Logo } from '@/components/ui/Logo';
 
 /**
  * A premium, minimal close to the page. Ventures and connect columns are derived
@@ -21,7 +22,7 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-14 md:grid-cols-12">
           {/* Brand */}
           <div className="md:col-span-5">
-            <span className="text-2xl font-extrabold tracking-[0.3em]">{brand.name}</span>
+            <Logo tone="light" size="lg" />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-paper/50">{footer.statement}</p>
 
             <div className="mt-8 flex gap-5">

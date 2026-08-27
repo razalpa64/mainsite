@@ -12,6 +12,12 @@ export interface ResponsiveImageProps {
   sizes?: string;
   eager?: boolean;
   style?: CSSProperties;
+  /**
+   * Optional crop aspect (e.g. `"4 / 3"`). When set, it overrides the manifest's
+   * intrinsic ratio and the image is cropped with `object-cover` — useful for
+   * tiles/thumbnails where a different crop reads better.
+   */
+  aspect?: string;
 }
 
 /**
@@ -31,6 +37,7 @@ export function ResponsiveImage({
   sizes,
   eager = false,
   style,
+  aspect,
 }: ResponsiveImageProps) {
   const [loaded, setLoaded] = useState(false);
   const image = resolveImage(path);
@@ -52,7 +59,7 @@ export function ResponsiveImage({
   return (
     <div
       className={`relative overflow-hidden ${className}`}
-      style={{ aspectRatio: `${image.width} / ${image.height}`, ...style }}
+      style={{ aspectRatio: aspect ?? `${image.width} / ${image.height}`, ...style }}
     >
       <picture>
         <source type="image/webp" srcSet={image.srcset} sizes={sizesAttr} />

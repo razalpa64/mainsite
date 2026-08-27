@@ -24,13 +24,14 @@ const OUT_DIR = path.join(root, 'public', 'assets', 'images');
 const MANIFEST_PATH = path.join(root, 'src', 'assets', 'images', 'manifest.json');
 
 /** Which responsive widths to emit per image class. */
-const WIDTHS = { portrait: [640, 1024], square: [480, 960] };
+const WIDTHS = { portrait: [640, 1024], square: [480, 960], hero: [800, 1200] };
 
 /**
  * Source -> target. `kind` selects width list + ratio; `exact` overrides with a
  * fixed pixel size (used for the OG cover).
  */
 const SPEC = [
+  { src: 'hero-main.jpg', out: 'hero/main.jpg', kind: 'hero' },
   { src: 'ventures-learning.jpg', out: 'ventures/learning.jpg', kind: 'portrait' },
   { src: 'ventures-labs.jpg', out: 'ventures/labs.jpg', kind: 'portrait' },
   { src: 'ventures-studio.jpg', out: 'ventures/studio.jpg', kind: 'portrait' },
@@ -41,10 +42,11 @@ const SPEC = [
   { src: 'services-education.jpg', out: 'services/education.jpg', kind: 'square' },
   { src: 'about-direction.jpg', out: 'about/direction.jpg', kind: 'portrait' },
   { src: 'about-craft.jpg', out: 'about/craft.jpg', kind: 'portrait', optional: true },
-  { src: 'og-cover.jpg', out: 'og/cover.jpg', kind: 'og', exact: { width: 1200, height: 630 } },
+  // OG cover is derived from the hero artwork so social shares always match the brand.
+  { src: 'hero-main.jpg', out: 'og/cover.jpg', kind: 'og', exact: { width: 1200, height: 630 } },
 ];
 
-const RATIO = { portrait: 1024 / 1536, square: 1 };
+const RATIO = { portrait: 1024 / 1536, square: 1, hero: 4 / 5 };
 
 function hash(input) {
   return createHash('md5').update(input).digest('hex').slice(0, 8);

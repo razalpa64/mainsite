@@ -143,6 +143,8 @@ export interface SiteContent {
     stats: HeroStat[];
     statsNote: string;
     scrollCue: string;
+    image: string;
+    imageAlt: string;
     visual: {
       label: string;
       reducedMotionFallback: boolean;

@@ -71,8 +71,10 @@
     ],
     "statsNote": "Counted live from the ecosystem data — no invented figures.",
     "scrollCue": "Scroll",
+    "image": "/assets/images/hero/main.jpg",
+    "imageAlt": "The Invytra studio — technology, learning and creative work converging in one space",
     "visual": {
-      "label": "Ecosystem",
+      "label": "The Ecosystem",
       "reducedMotionFallback": true
     }
   },
