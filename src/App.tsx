@@ -30,6 +30,11 @@ export default function App() {
     if (!content.loading.enabled) setBooted(true);
   }, []);
 
+  // Drop the static HTML boot screen once React owns the DOM.
+  useEffect(() => {
+    document.getElementById('boot')?.remove();
+  }, []);
+
   return (
     <div className="relative">
       {content.loading.enabled && <Preloader onDone={handleBoot} />}
