@@ -1,0 +1,177 @@
+/* ── Invytra design tokens & base ─────────────────────────────────────────── */
+
+@import "@fontsource-variable/manrope";
+@import "@fontsource/geist-mono/400.css";
+@import "@fontsource/geist-mono/500.css";
+
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — warm ivory + deep charcoal + one restrained cobalt. */
+  --color-paper: #f6f4ef;
+  --color-paper-2: #efece5;
+  --color-paper-3: #e7e2d8;
+  --color-ink: #101116;
+  --color-ink-2: #171922;
+  --color-ink-3: #22242e;
+  --color-muted: #6a6b72;
+  --color-cobalt: #2647e0;
+  --color-cobalt-soft: #4d6bf0;
+  --color-ember: #d97a3c;
+
+  /* Type */
+  --font-sans: "Manrope Variable", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Motion */
+  --ease-lux: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-soft: cubic-bezier(0.65, 0.05, 0.36, 1);
+
+  /* Depth */
+  --shadow-lift: 0 24px 60px -28px rgb(16 17 22 / 0.28);
+  --shadow-card: 0 12px 40px -18px rgb(16 17 22 / 0.22);
+}
+
+/* ── Base ────────────────────────────────────────────────────────────────── */
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+  overflow-x: clip;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "ss01" on, "cv11" on;
+}
+
+::selection {
+  background: var(--color-cobalt);
+  color: var(--color-paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cobalt);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+/* Tabular figures for stats/counters */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Surfaces ─────────────────────────────────────────────────────────────── */
+
+.glass {
+  background: color-mix(in srgb, var(--color-paper) 72%, transparent);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  backdrop-filter: blur(18px) saturate(160%);
+  border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 8%, transparent);
+}
+
+.glass-dark {
+  background: color-mix(in srgb, var(--color-ink) 58%, transparent);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  backdrop-filter: blur(18px) saturate(160%);
+}
+
+/* Fine hairline used across sections */
+.hairline {
+  @apply bg-ink/10;
+  height: 1px;
+}
+
+/* Fail-soft art-directed placeholder for missing imagery */
+.invy-img-fallback {
+  background:
+    radial-gradient(120% 90% at 20% 0%, rgb(255 255 255 / 0.5), transparent 60%),
+    radial-gradient(90% 70% at 85% 100%, rgb(38 71 224 / 0.18), transparent 55%),
+    linear-gradient(160deg, var(--color-paper-2), var(--color-paper-3));
+}
+
+/* Grain overlay for cinematic texture */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='0.6'/%3E%3C/svg%3E");
+}
+
+/* ── Keyframes ────────────────────────────────────────────────────────────── */
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes ring-pulse {
+  0% {
+    transform: translate(-50%, -50%) scale(0.55);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.25);
+    opacity: 0;
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -14px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* ── Reduced motion ───────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Scrollbar (subtle, brand) ────────────────────────────────────────────── */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(16 17 22 / 0.35) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgb(16 17 22 / 0.3);
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}

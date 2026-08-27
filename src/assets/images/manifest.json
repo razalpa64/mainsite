@@ -1,0 +1,102 @@
+{
+  "/assets/images/ventures/learning.jpg": {
+    "src": "/assets/images/ventures/learning-1024.webp",
+    "fallbackSrc": "/assets/images/ventures/learning-1024.jpg",
+    "srcset": "/assets/images/ventures/learning-640.webp 640w, /assets/images/ventures/learning-1024.webp 1024w",
+    "srcsetFallback": "/assets/images/ventures/learning-640.jpg 640w, /assets/images/ventures/learning-1024.jpg 1024w",
+    "width": 1024,
+    "height": 1536,
+    "lqip": "data:image/webp;base64,UklGRogAAABXRUJQVlA4IHwAAAAwBACdASoQABgAPrVKoUmnJCOhMAgA4BaJQBdgDGUjuLcGUPpXWHUwxcAA/vQCfOIyh4vCowJKG+c6r8cimo0m6GGGsXRBFSIskrPLgqUZWW25o1G5v1767IRogHsU6PDQplT2LE9V0oPi1/N6swrafI5K3hh9tA4AAAAA",
+    "hash": "f2ca93ad"
+  },
+  "/assets/images/ventures/labs.jpg": {
+    "src": "/assets/images/ventures/labs-1024.webp",
+    "fallbackSrc": "/assets/images/ventures/labs-1024.jpg",
+    "srcset": "/assets/images/ventures/labs-640.webp 640w, /assets/images/ventures/labs-1024.webp 1024w",
+    "srcsetFallback": "/assets/images/ventures/labs-640.jpg 640w, /assets/images/ventures/labs-1024.jpg 1024w",
+    "width": 1024,
+    "height": 1536,
+    "lqip": "data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAABQBACdASoQABgAPrVInkmnJCKhMAgA4BaJZQCdAYwIz5bKxlZOai42OKkAAP5mi1fd5txbVzjhVNStNIpcxTrIagv38mHek0KMuFSfFvz83iHWfGqmK+ujTY/psX15vM2R/lQHbcGBMIGJPWgaOlKq0InbCu8yoIkXTHz6tmztbHPJRjYbzx3+LaAzrfsDkzQdOfp3uleqMBi2qMLv0JB0BUcAAA==",
+    "hash": "c1ae7f5b"
+  },
+  "/assets/images/ventures/studio.jpg": {
+    "src": "/assets/images/ventures/studio-1024.webp",
+    "fallbackSrc": "/assets/images/ventures/studio-1024.jpg",
+    "srcset": "/assets/images/ventures/studio-640.webp 640w, /assets/images/ventures/studio-1024.webp 1024w",
+    "srcsetFallback": "/assets/images/ventures/studio-640.jpg 640w, /assets/images/ventures/studio-1024.jpg 1024w",
+    "width": 1024,
+    "height": 1536,
+    "lqip": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAABQBACdASoQABgAPrVKnkonJCKhsAgA4BaJYwCw7Yv01bZO3i8H+5qBaIwAAO8ZPYbo4NdntFo+1SFu+6PHuei9HcjABony+RdW6j6jJFyZtqAcrU7mdHXUMhQfuQt2v6yiBNOpdD/+ddbsLztvKdVbzqBYFT6CnBA3lVoajRI0bfmCIZLV1Ss3IQkHG82jx1hWVju7CgAAAA==",
+    "hash": "427ee583"
+  },
+  "/assets/images/ventures/platform.jpg": {
+    "src": "/assets/images/ventures/platform-1024.webp",
+    "fallbackSrc": "/assets/images/ventures/platform-1024.jpg",
+    "srcset": "/assets/images/ventures/platform-640.webp 640w, /assets/images/ventures/platform-1024.webp 1024w",
+    "srcsetFallback": "/assets/images/ventures/platform-640.jpg 640w, /assets/images/ventures/platform-1024.jpg 1024w",
+    "width": 1024,
+    "height": 1536,
+    "lqip": "data:image/webp;base64,UklGRpQAAABXRUJQVlA4IIgAAABQBACdASoQABgAPrVKnkmnJCKhMAgA4BaJZQCo9Yvstd8TJlNR2Q3EF6wAAP7wmq69G3mRJSZR/M28bfpsh9/AnqIOwXOAiwOBM/3bpLmANLVUZq0jVOvGR5CwMJw0H+MEQ8XSDg+GthJw3a2xQ/ExdqzIDOPGXw3/5NTMSu+BiMsw0+i0AAAA",
+    "hash": "b020c26e"
+  },
+  "/assets/images/services/digital-products.jpg": {
+    "src": "/assets/images/services/digital-products-960.webp",
+    "fallbackSrc": "/assets/images/services/digital-products-960.jpg",
+    "srcset": "/assets/images/services/digital-products-480.webp 480w, /assets/images/services/digital-products-960.webp 960w",
+    "srcsetFallback": "/assets/images/services/digital-products-480.jpg 480w, /assets/images/services/digital-products-960.jpg 960w",
+    "width": 960,
+    "height": 960,
+    "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQABAAAoBCJYgCsAEKpOTd3StWwAD++mGuehj2oX3I4avEGBt8DcUqOYXkRDSxFDbgGWDfHOTKUDVyIyqI7pFt8WNs0i/yPLjfLquLxX15r3/SKM+V/FysAAA=",
+    "hash": "bdf1e610"
+  },
+  "/assets/images/services/technology.jpg": {
+    "src": "/assets/images/services/technology-960.webp",
+    "fallbackSrc": "/assets/images/services/technology-960.jpg",
+    "srcset": "/assets/images/services/technology-480.webp 480w, /assets/images/services/technology-960.webp 960w",
+    "srcsetFallback": "/assets/images/services/technology-480.jpg 480w, /assets/images/services/technology-960.jpg 960w",
+    "width": 960,
+    "height": 960,
+    "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQABAAAoBCJZQCdAEPAAsgdeQYAP75c+Lguepf4vkjWiLTzh4Rod24wqUBz2KxNcHhoZBjINPYW8Rtqh0bZIUHq3hnyTd+/SYIOuuavPGmF2gvoUcAAA==",
+    "hash": "df89f0e0"
+  },
+  "/assets/images/services/creative.jpg": {
+    "src": "/assets/images/services/creative-960.webp",
+    "fallbackSrc": "/assets/images/services/creative-960.jpg",
+    "srcset": "/assets/images/services/creative-480.webp 480w, /assets/images/services/creative-960.webp 960w",
+    "srcsetFallback": "/assets/images/services/creative-480.jpg 480w, /assets/images/services/creative-960.jpg 960w",
+    "width": 960,
+    "height": 960,
+    "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAAAwAgCdASoQABAAAoBCJQBOgMXNtMe0Boy3oAD+YOFx+4SIbF93N4KmOL2AXJtMgFjw1wNWi76MK0fxJjt5T3EyAGQkuB51yBvXAfDQ4exMy0/824n6zlmqdJqcGe9Kji1wCEw1k30jIc6JJ934HO9jjkqAAA==",
+    "hash": "634e45d5"
+  },
+  "/assets/images/services/education.jpg": {
+    "src": "/assets/images/services/education-960.webp",
+    "fallbackSrc": "/assets/images/services/education-960.jpg",
+    "srcset": "/assets/images/services/education-480.webp 480w, /assets/images/services/education-960.webp 960w",
+    "srcsetFallback": "/assets/images/services/education-480.jpg 480w, /assets/images/services/education-960.jpg 960w",
+    "width": 960,
+    "height": 960,
+    "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQAgCdASoQABAAAoBCJZACdH8AEYoXogwAAP733aB8rbnQxVzaS4Iy4FLVTGG5xMI+KhPFudI48nRV/DDyQb9qFi7Nn7XghCbvCdDuymjW6NgeqeOMpCKG663+n3hwBUWTLAnj3P0AAA==",
+    "hash": "351d939b"
+  },
+  "/assets/images/about/direction.jpg": {
+    "src": "/assets/images/about/direction-1024.webp",
+    "fallbackSrc": "/assets/images/about/direction-1024.jpg",
+    "srcset": "/assets/images/about/direction-640.webp 640w, /assets/images/about/direction-1024.webp 1024w",
+    "srcsetFallback": "/assets/images/about/direction-640.jpg 640w, /assets/images/about/direction-1024.jpg 1024w",
+    "width": 1024,
+    "height": 1536,
+    "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAAAwBQCdASoQABgAPrVKn0mnJCKhMAgA4BaJQBOmUGRBp/9AH//ogABxdJ7DGotitILYAAD+9dBUud7yjqu4SbtLJXTFvmFjJtQbCNxSw1SxN5qz64oDlcyhHBvfZikL4hlwDqn7K+VHAw+79ms3WRSsC2mZ0SfX72o3OjmJ4oyb6mfAjwQAAA==",
+    "hash": "90386839"
+  },
+  "/assets/images/og/cover.jpg": {
+    "src": "/assets/images/og/cover.webp",
+    "fallbackSrc": "/assets/images/og/cover.jpg",
+    "srcset": "/assets/images/og/cover.webp 1200w",
+    "srcsetFallback": "/assets/images/og/cover.jpg 1200w",
+    "width": 1200,
+    "height": 630,
+    "lqip": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoQAAgAAoBCJYwCdAD2BJuxaqIAAPZEcT/BeIyhauabhEH+Hb3pqZnW3s7NOvtDv3ektsjNPg648/ReL/1QAA==",
+    "hash": "86fa032c"
+  }
+}
